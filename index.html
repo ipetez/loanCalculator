@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Loan Calculator</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+  </head>
+  <body>
+    <form name="loanCalc" id="loanCalc">
+      <div id="loanInputs">
+        <h1>Loan Calculator</h1>
+        <div id="loanAmt" class="calcDiv">
+          <span class="loanLabel">Loan amount <span>$</span></span>
+          <input type="text" id="loanAmtInput" class="calcInput" onkeyup="checkNum(this)" value="5000" />
+        </div>
+        <div id="loanInterest" class="calcDiv">
+          <span class="loanLabel">Interest rate <span>%</span></span>
+          <input type="text" id="interestInput" class="calcInput" onkeyup="checkNum(this)" value="4.5" />
+        </div>
+        <div id="loanYears" class="calcDiv">
+          <span class="loanLabel">Loan term in years</span>
+          <input type="text" id="loanTermInput" class="calcInput" onkeyup="checkNum(this)" value="5" />
+        </div>
+        <div id="calcBtn"onclick=loan()>Calculate</div>
+        <h2>Loan Summary</h2>
+        <div id="monthlyPay">$93.22/mo.</div>
+              <div id="pieChart" class="chart"></div>
+      </div>
+    </form>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="js/main.js"type="text/javascript"></script>
+</html>
