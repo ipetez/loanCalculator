@@ -1,5 +1,5 @@
 # Loan Calculator
-This is a visually oriented web application for getting getting insightful information on a loan through a pie chart, built with SVG and CSS3 animations.  
+This is a visually oriented web application for getting getting insightful information on a loan through an interactive pie chart, built with SVG and CSS3 animations.  
 ![Alt text](/calc_screenshot.png?raw=true "Metron screenshot")
 # <h2>Features</h2>
 <ul>
