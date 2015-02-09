@@ -1,3 +1,8 @@
+/*!
+ * Copyright 2013 ipeters90
+ * https://github.com/ipeters90/loanCalculator
+ */
+
 // Initial drawing of pie chart
 var initLoan = parseInt(document.getElementById("loanAmtInput").value);
   $(function(){
@@ -7,10 +12,6 @@ var initLoan = parseInt(document.getElementById("loanAmtInput").value);
   ]);
 });
 
-/*!
- * Copyright 2013 ipeters90
- * https://github.com/ipeters90/loanCalculator
- */
 ;(function($, undefined) {
   $.fn.drawPieChart = function(data, options) {
     var $this = this,
