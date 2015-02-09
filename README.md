@@ -5,7 +5,7 @@ This is a visually oriented web application for getting getting insightful infor
 <ul>
   <li>Windows 8.1 themed application</li>
   <li>Clear visual representation of loan summary</li>
-  <liCalculate monthly payments (EMI)</li>
+  <li>Calculate monthly payments (EMI)</li>
   <li>Estimated Total Interest payout </li>
   <li>Full Loan payout amount</li>
   <li>Create multiple instances of Pie chart for side by side comparison</li>
