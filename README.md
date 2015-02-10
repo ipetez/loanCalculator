@@ -15,4 +15,5 @@ This is a visually oriented web application for getting getting insightful infor
 
 Clone the repository
 
-<div>$ git clone https://github.com/ipeters90/loanCalculator.git <br>$ cd loanCalculator</div>
+    $ git clone https://github.com/ipeters90/loanCalculator.git
+    $ cd loanCalculator
